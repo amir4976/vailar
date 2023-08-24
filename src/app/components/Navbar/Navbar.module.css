@@ -1,0 +1,63 @@
+.NavbarContainer{
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Navbar{
+    background: #fff;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarUl{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.navbarUl li{
+    margin-right: 20px;
+}
+.navbarLeftSide{
+    display: flex;
+    align-items: center;
+
+}
+.NavbarRightSide{
+    font-size: 20px;
+    padding: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.hamburgerMenu{
+    display: none;
+}
+
+@media screen and (max-width:1000px) {
+    .NavbarContainer{
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+    .navbarUl{
+        display: none;
+    } 
+    .hamburgerMenu{
+        display: flex;
+        font-size: 20px;
+    }
+}
