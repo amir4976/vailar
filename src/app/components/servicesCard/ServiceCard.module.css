@@ -1,0 +1,22 @@
+.ServisesCardContainer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #ffffff;
+    height: 200px;
+    width: 100%;
+    margin: 10px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+.ServicesCardLogo{
+    width: 150px;
+    border-bottom:5px solid yellowgreen ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 50px;
+}

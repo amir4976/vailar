@@ -14,7 +14,7 @@ function SomeServices() {
         <div className={styles.someServicesDesc}>
             <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
         </div>
-        <div className="row">
+        <div className={`${styles.Row} row container`}>
         <ServicesCard/>
         <ServicesCard/>
         <ServicesCard/>
