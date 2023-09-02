@@ -5,7 +5,8 @@ import ProjectLandingCard from "../ProjectLandingCard/ProjectLandingCard";
 function ProjectLanding() {
   return (
     <div className={Style.ProjectLandingContainer}>
-      <div className="row cotnainer">
+      <div className="container">
+      <div className="row ">
         <div className="col-md-3 ">
           <ProjectLandingCard />
         </div>
@@ -18,6 +19,7 @@ function ProjectLanding() {
         <div className="col-md-3 ">
           <ProjectLandingCard />
         </div>
+      </div>
       </div>
     </div>
   );

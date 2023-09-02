@@ -3,7 +3,7 @@ import Image from 'next/image'
 import style from './ProjectLandingCard.module.css'
 function ProjectLandingCard() {
   return (
-  <div className={style.ProjectsLandingCardContaineer}>
+  <div className={style.ProjectsLandingCardContainer}>
   
         <Image fill={true} src={'/slider-1.jpg'} />
     
